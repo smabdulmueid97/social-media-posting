@@ -1,10 +1,40 @@
-# social-media-posting
+<p align="center">
+  <img src="assets/banner.svg" alt="social-media-posting — one idea, seven versions" width="100%" />
+</p>
 
-A Claude Code skill that turns one idea, video, or announcement into platform-ready posts for **YouTube, Instagram, Facebook, TikTok, Bilibili, LinkedIn, and X**.
+<p align="center">
+  <a href="https://github.com/smabdulmueid97/social-media-posting/blob/main/LICENSE"><img alt="License: MIT" src="https://img.shields.io/github/license/smabdulmueid97/social-media-posting?style=flat-square" /></a>
+  <a href="https://github.com/smabdulmueid97/social-media-posting"><img alt="Claude Code skill" src="https://img.shields.io/badge/Claude_Code-skill-blueviolet?style=flat-square" /></a>
+  <a href="https://github.com/smabdulmueid97/social-media-posting"><img alt="7 platforms" src="https://img.shields.io/badge/platforms-7-ff69b4?style=flat-square" /></a>
+  <a href="https://github.com/smabdulmueid97/social-media-posting/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/smabdulmueid97/social-media-posting?style=flat-square" /></a>
+</p>
 
-One source, seven versions — each with its own hook, length, and hashtags. Never the same text pasted everywhere.
+<h1 align="center">social-media-posting</h1>
 
-## Install (30 seconds)
+<p align="center">
+  A Claude Code skill that turns one idea, video, or announcement into platform-ready posts for <b>YouTube, Instagram, Facebook, TikTok, Bilibili, LinkedIn, and X</b>.<br />
+  One source, seven versions — each with its own hook, length, and hashtags. <b>Never the same text pasted everywhere.</b>
+</p>
+
+<p align="center">
+  <a href="#-install-30-seconds">Install</a> •
+  <a href="#-use-it">Use it</a> •
+  <a href="#-platform-specs">Specs</a> •
+  <a href="#-rules">Rules</a> •
+  <a href="#-layout">Layout</a>
+</p>
+
+---
+
+```mermaid
+flowchart LR
+    A[One idea] --> B[Master version<br/>hook + message + CTA]
+    B --> C[7 platform versions<br/>own voice + length]
+    C --> D[You review]
+    D --> E[You post]
+```
+
+## 🚀 Install (30 seconds)
 
 ```bash
 git clone https://github.com/smabdulmueid97/social-media-posting.git
@@ -14,7 +44,7 @@ git clone https://github.com/smabdulmueid97/social-media-posting.git
 
 Or manually: copy `SKILL.md` to `~/.claude/skills/social-media-posting/SKILL.md`.
 
-## Use it
+## 💬 Use it
 
 ```
 post this launch to YouTube, Instagram, TikTok, Bilibili, LinkedIn and X
@@ -22,7 +52,7 @@ post this launch to YouTube, Instagram, TikTok, Bilibili, LinkedIn and X
 
 Fill in `templates/post-brief.md` first if you want — what it is, audience, link, what they should do next, tone, and anything it must (or must not) say.
 
-## Platform specs — checked Oct–Nov 2026, verify before posting
+## 📏 Platform specs — checked Oct–Nov 2026, verify before posting
 
 | Platform | Format | Best length | Caption / title limit |
 |---|---|---|---|
@@ -36,14 +66,14 @@ Fill in `templates/post-brief.md` first if you want — what it is, audience, li
 
 Universal export: vertical 9:16, 1080×1920, H.264 MP4 + AAC, ≤3 min — valid as a Short, Reel, and TikTok.
 
-## Rules
+## 🛑 Rules
 
 - Drafts only — it never publishes anything itself. You post, or use the platform's scheduler.
 - Facts stay identical everywhere: same link, same price, same date.
 - No invented follower counts, views, or "best time to post" data.
 - No watermarked reposts across platforms, and no machine-translated Chinese titles for Bilibili.
 
-## Layout
+## 🗂️ Layout
 
 ```
 SKILL.md                     # the skill
